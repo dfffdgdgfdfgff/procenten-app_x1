@@ -1,12 +1,12 @@
 def mainloop():
     print("Wat voor soort wil je maken?")
-    keuze = input("""1: hoeveel is X% van Y
-    2: hoeveel % is X van Y
-    3: X neemt toe met Y%
-    4: X neemt af met Y%
-    5: X is toegenomen naar Y, met hoeveel % is dat?
-    6: Z neemt toe met X% en is nu Y
-    Soort: """)
+    print("1: hoeveel is X% van Y")
+    print("2: hoeveel % is X van Y")
+    print("3: X neemt toe met Y%")
+    print("4: X neemt af met Y%")
+    print("5: X is toegenomen naar Y, met hoeveel % is dat?")
+    print("6: Z neemt toe met X% en is nu Y")
+    keuze = input("Soort: ")
     waarde_x = float(input("X: "))
     waarde_y = float(input("Y: "))
 
