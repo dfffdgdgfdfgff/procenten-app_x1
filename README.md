@@ -1,4 +1,4 @@
-Version 1:
+Versie 1:
 -simpel procentenberekenprogramma
 
 Versie 2:
