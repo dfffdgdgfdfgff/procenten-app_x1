@@ -15,9 +15,11 @@ while herhalend == True:
         case "4":
             print(round((waarde_y/waarde_x)*100, 1))
 
+''' ---SETUP VOOR HERHAALFUNCTIE---
     herhaalkeuze = (input("Wil je nog een berekening maken? (Y/N) \n: "))
     if herhaalkeuze == "N" or "n":
         herhalend = False
         print("vijne dag")
     elif herhaalkeuze == "Y" or "y":
         herhalend = True
+'''
