@@ -24,11 +24,10 @@ def mainloop():
         case "6":
             print(f"Z = {round(waarde_y/(1+waarde_x/100), 2)}")
 
+    herhaalkeuze = (input("Wil je nog een berekening maken? (Y/N) \n: "))
+    if herhaalkeuze.lower() in ("n"):
+        print("fijne dag")
+    elif herhaalkeuze.lower() in ("y"):
+        mainloop()
 
 mainloop()
-
-herhaalkeuze = (input("Wil je nog een berekening maken? (Y/N) \n: "))
-if herhaalkeuze.lower() in ("n"):
-    print("fijne dag")
-elif herhaalkeuze.lower() in ("y"):
-    mainloop()
